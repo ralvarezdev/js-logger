@@ -1,0 +1,16 @@
+{
+  "name": "@ralvarezdev/js-logger",
+  "version": "0.1.0",
+  "description": "Logger for JavaScript Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "keywords": [],
+  "author": "Ramón Álvarez",
+  "license": "ISC",
+  "type": "module",
+  "publishConfig": {
+    "@ralvarezdev:registry": "https://npm.pkg.github.com"
+  }
+}
