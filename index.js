@@ -1,3 +1,3 @@
-import Logger from "./lib/logger.js";
+import Logger from "./logger/logger.js";
 
 export default Logger;

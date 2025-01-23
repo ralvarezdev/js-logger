@@ -1,11 +1,8 @@
 {
   "name": "@ralvarezdev/js-logger",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Logger for JavaScript projects",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "exit 0"
   },
