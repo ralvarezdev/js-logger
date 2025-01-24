@@ -52,25 +52,20 @@ export default class Logger {
         // Check if the save property is true
         if (save) {
             // Check if the logPath or logFilename property is empty
-            if (logPath === "") {
+            if (logPath === "")
                 throw MISSING_LOG_PATH_ERROR;
-            }
-            if (logFilename === "") {
+            if (logFilename === "")
                 throw MISSING_LOG_FILENAME_ERROR;
-            }
 
             // Check if the logPath directory exists
-            this.#logPath = path.join(__dirname, logPath);
-            if (!fs.existsSync(this.#logPath)) {
+            if (!fs.existsSync(this.#logPath))
                 fs.mkdirSync(this.#logPath);
-            }
 
             // Check if the logFilename file exists
             this.#logFilename = logFilename
             this.#logFilePath = path.join(this.#logPath, logFilename);
-            if (!fs.existsSync(this.#logFilename)) {
+            if (!fs.existsSync(this.#logFilename))
                 fs.writeFileSync(this.#logFilename, "");
-            }
         }
     }
 
@@ -95,9 +90,9 @@ export default class Logger {
         const logEntryStr = String(logEntry);
 
         // Check if the save property is true
-        if (this.#save) {
+        if (this.#save)
             this.#appendLogEntryToFile(logEntryStr + "\n");
-        }
+
         console.log(logEntryStr);
     }
 
