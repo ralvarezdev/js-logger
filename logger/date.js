@@ -1,5 +1,5 @@
 // Get the current date in the format
-function GetFormattedDate({
+export default function GetFormattedDate({
                               locales = "en-US",
                               options = {
                                   year: 'numeric',

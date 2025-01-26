@@ -1,6 +1,6 @@
 {
   "name": "@ralvarezdev/js-logger",
-  "version": "0.1.6",
+  "version": "0.1.9",
   "description": "Logger for JavaScript projects",
   "main": "index.js",
   "scripts": {
