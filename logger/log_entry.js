@@ -27,6 +27,6 @@ export default class LogEntry {
 
     // String representation of the log entry
     toString() {
-        return `${GetFormattedDate()} [${this.#type}]: ${this.#message}`;
+        return `${GetFormattedDate()} [${this.#type}] ${this.#message}`;
     }
 }
