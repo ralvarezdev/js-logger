@@ -1,1 +1,1 @@
-export {default as Logger} from "./logger/logger.js";
+export {default,LogEntry, LogEntryType, GetFormattedDate} from "./logger/index.js";
