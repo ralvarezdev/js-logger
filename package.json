@@ -20,7 +20,7 @@
     "critical"
   ],
   "author": "Ramón Álvarez",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "type": "module",
   "repository": { "type": "git", "url": "git+https://github.com/ralvarezdev/js-logger.git" },
   "bugs": {
